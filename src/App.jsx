@@ -42,6 +42,27 @@ function App() {
   );
 }
 
-function FlashCards() {}
+function FlashCards() {
+  const [selectedObjId, setSelectedObjId] = useState(null);
+  console.log(selectedObjId);
+
+  function handleQuestion(id) {
+    setSelectedObjId(id !== selectedObjId ? id : null);
+  }
+
+  return (
+    <div className="flashcards">
+      {questions.map((q) => (
+        <div
+          key={q.id}
+          onClick={() => handleQuestion(q.id)}
+          className={q.id === selectedObjId ? "selected" : ""}
+        >
+          {q.id === selectedObjId ? q.answer : q.question}
+        </div>
+      ))}
+    </div>
+  );
+}
 
 export default App;
