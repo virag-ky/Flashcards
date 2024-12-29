@@ -1,8 +1,7 @@
-# React + Vite
+# Flashcards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This challenge is from [The Ultimate React Course 2024](https://www.udemy.com/course/the-ultimate-react-course).
 
-Currently, two official plugins are available:
+Built with React and deployed with gh-pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="2040" alt="Screenshot 2024-12-29 at 18 07 48" src="https://github.com/user-attachments/assets/71cb1243-a48d-4d16-b66c-e8ce2b4785d5" />
